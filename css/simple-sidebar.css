@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+ @import url('http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css');
 
 /* Toggle Styles */
 
@@ -70,7 +66,9 @@
     display: block;
     text-decoration: none;
     color: #fff;
+    font-family: Helvetica, Arial, Sans-Serif;
     font-size: 20px;
+    font-weight: 300;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -158,24 +156,21 @@
   margin-left: auto;
 }
 
-/* Navigation Bar Hover Animation */
-.sliding-middle-out {
-	display: inline-block;
-	position: relative;
-	padding-bottom: 3px;
+.social-icons {
+  padding-top: 20px;
 }
 
-.sliding-middle-out:after {
-	content: '';
-	display: block;
-	margin: auto;
-	height: 3px;
-	width: 0px;
-	background: transparent;
-	transition: width .5s ease, background-color .5s ease;
+.soc-marg {
+  margin-left: 20px;
 }
 
-.sliding-middle-out:hover:after {
-	width: 100%;
-	background: #fff;
+.footer {
+  color: #fff;
+  padding-left: 20px;
+  position: fixed;
+  bottom: 20px;
+}
+
+.footer a {
+  color: #80d4ff;
 }
